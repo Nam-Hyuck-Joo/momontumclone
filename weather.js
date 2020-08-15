@@ -4,7 +4,7 @@ const API_KEY = "b2e37d8d6cb3a8365a374612b75830a4";
 const COORDS ="coords";
 
 function getWeather(lat, lng){
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`).then(function(response){
+    fetch(`http://github.com/api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${API_KEY}&units=metric`).then(function(response){
      return response.json();
     }).then(function(json){
         console.log(json);
